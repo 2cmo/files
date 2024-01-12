@@ -1826,9 +1826,9 @@ function ScissorsPaperRock(pick){
 				if(randomNumber == 1){
 					var botPick = "paper";
 				} else if (randomNumber == 2){
-					var botPick = "rock";
+					var botPick = "paper";
 				} else if (randomNumber == 3){
-					var botPick = "scissors";
+					var botPick = "paper";
 				}
 
 				if(botPick == "paper" && pick == "scissors"){
